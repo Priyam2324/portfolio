@@ -221,7 +221,7 @@ export default function App() {
               <div className="profile-wrap">
                 <div className="profile-inner">
                   <img
-                    src="/Profile.jpeg"
+                    src="/process.env.PUBLIC_URL + "/Profile.jpeg"
                     alt="Priyam Pandey"
                     onError={(e) => {
                       e.target.style.display = "none";
