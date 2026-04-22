@@ -273,7 +273,7 @@ export default function App() {
                 &nbsp;&nbsp;<span className="prop">goal</span>: <span className="str">"Make a difference"</span><br />
                 {"}"};
                 <br /><br />
-                <span className="cmt">// Let's build the future together 🚀</span>
+                <span className="cmt">{/*Let's build the future together 🚀*/}</span>
               </div>
             </div>
 
@@ -295,7 +295,7 @@ export default function App() {
       {/* ── PROJECTS ── */}
       <section className="projects-section" id="projects">
         <div className="section-header">
-          <span className="section-tag">// my work</span>
+          <span className="section-tag">{/*my work*/}</span>
           <h2 className="section-title">Featured <span className="accent">Projects</span></h2>
           <p className="section-sub">Things I've built — from intelligent ML apps to full-stack web experiences.</p>
         </div>
@@ -338,7 +338,7 @@ export default function App() {
       {/* ── CONTACT ── */}
       <section className="contact-section" id="contact">
         <div className="contact-inner">
-          <span className="section-tag">// get in touch</span>
+          <span className="section-tag">{/*get in touch*/}</span>
           <h2 className="section-title">Let's <span className="accent">Connect</span></h2>
           <p className="contact-sub">
             Open to opportunities, collaborations, and interesting conversations. Feel free to reach out!
