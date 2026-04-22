@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "./App.css";
+import profileImg from "./assets/Profile.jpeg";
 
 /* ── Inline SVG Icons ─────────────────────────────────────── */
 const GithubIcon = ({ size = 16 }) => (
@@ -220,8 +221,9 @@ export default function App() {
               <div className="orbit-ring-2"></div>
               <div className="profile-wrap">
                 <div className="profile-inner">
+            
                   <img
-                    src="/process.env.PUBLIC_URL + "/Profile.jpeg"
+                    src="{profileImg} alt="profile" "
                     alt="Priyam Pandey"
                     onError={(e) => {
                       e.target.style.display = "none";
