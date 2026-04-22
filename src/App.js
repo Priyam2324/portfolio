@@ -348,7 +348,7 @@ export default function App() {
       </section>
 
       <footer className="footer">
-        <span>Built by <span className="accent-text">Priyam Pandey</span> · 2024</span>
+        <span>Built by <span className="accent-text">Priyam Pandey</span> · 2026</span>
       </footer>
     </div>
   );
