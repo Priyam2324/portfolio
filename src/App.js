@@ -221,9 +221,9 @@ export default function App() {
               <div className="orbit-ring-2"></div>
               <div className="profile-wrap">
                 <div className="profile-inner">
-            
+
                   <img
-                    src="{profileImg} alt="profile" "
+                    src={profileImg}
                     alt="Priyam Pandey"
                     onError={(e) => {
                       e.target.style.display = "none";
