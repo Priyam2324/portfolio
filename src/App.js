@@ -105,43 +105,62 @@ const techStack = [
 /* ── Projects ─────────────────────────────────────────────── */
 const projects = [
   {
-    year: "2025",
-    title: "Anime Insight: Hybrid-AI Thematic Summary Engine",
-    description:
-      "Architected a hybrid AI system combining spaCy NLP and Gemini LLM to generate spoiler-free anime summaries. Built a multi-stage pipeline covering search, theme extraction, and controlled text generation. Developed a Flask REST API backend and deployed on Hugging Face Spaces. Mitigated cold-start latency via frontend optimizations.",
+    title: "Anime Insight: Hybrid AI Summary Engine",
+    description: (
+      <ul style={{ margin: 0, paddingLeft: "1.2rem", display: "flex", flexDirection: "column", gap: "0.4rem" }}>
+        <li>Designed hybrid NLP system combining spaCy and Gemini LLM for high-quality summary generation.</li>
+        <li>Developed a multi-stage pipeline to reduce irrelevant context before LLM processing.</li>
+        <li>Engineered semantic extraction layer reducing input size and improving latency and consistency.</li>
+        <li>Built modular workflow for retrieval, filtering, and controlled generation.</li>
+        <li>Deployed using Flask backend and Hugging Face Spaces.</li>
+      </ul>
+    ),
     tags: ["Flask", "spaCy", "Gemini LLM", "NLP", "Hugging Face"],
-    link: "https://priyam2324.github.io/Anime_Insight/",
+    link: null,
     github: "https://github.com/Priyam2324/Anime_Insight",
     highlight: true,
   },
   {
-    year: "2024",
-    title: "Multi-Traveling Salesman Problem Solver",
-    description:
-      "Developed a metaheuristic optimization algorithm for solving the MTSP efficiently. Implemented discrete encoding, fitness evaluation, and convergence strategies that outperformed greedy heuristics on benchmark datasets. Visualized optimization results and convergence behavior using Matplotlib.",
-    tags: ["Python", "Metaheuristics", "Optimization", "Matplotlib"],
+    title: "MTSP Solver: Disaster Relief Logistics Optimizer",
+    description: (
+      <ul style={{ margin: 0, paddingLeft: "1.2rem", display: "flex", flexDirection: "column", gap: "0.4rem" }}>
+        <li>Solved NP-hard MTSP for disaster logistics using a novel Modified DSGO algorithm.</li>
+        <li>Designed circular encoding and custom crossover ensuring feasible route generation.</li>
+        <li>Achieved faster convergence and better route quality than GA, DPSO, ABC, TLBO.</li>
+        <li>Built full-stack system with React (Leaflet) frontend and FastAPI backend.</li>
+        <li>Visualized routes and convergence metrics in real time.</li>
+      </ul>
+    ),
+    tags: ["Python", "Metaheuristics", "Optimization", "React", "FastAPI"],
     link: null,
-    github: null,
+    github: "https://github.com/Priyam2324/mtsp-solver-frontend",
     highlight: false,
   },
   {
-    year: "2025",
-    title: "IEEE IES Bhubaneswar Chapter Website",
-    description:
-      "Built a fully responsive chapter website using HTML, CSS, and JavaScript. Implemented mobile-first design principles, sticky navigation, and clean grid layouts. Collaborated as part of a team and deployed the site live during the IEEE event.",
-    tags: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-    link: null,
-    github: null,
-    highlight: false,
-  },
-  {
-    year: "2025",
     title: "Personal Portfolio Website",
-    description:
-      "Developed a modern, responsive portfolio using React with a component-based architecture. Implemented reusable components, routing, and dynamic project rendering with React Hooks. Integrated animations and smooth UI transitions for an enhanced user experience. Deployed via GitHub Pages.",
+    description: (
+      <ul style={{ margin: 0, paddingLeft: "1.2rem", display: "flex", flexDirection: "column", gap: "0.4rem" }}>
+        <li>Built responsive portfolio using React with reusable components.</li>
+        <li>Implemented routing, animations, and dynamic UI rendering.</li>
+        <li>Deployed via GitHub Pages and Netlify.</li>
+      </ul>
+    ),
     tags: ["React", "JavaScript", "CSS", "GitHub Pages"],
     link: null,
-    github: "https://github.com/Priyam2324",
+    github: "https://github.com/Priyam2324/Priyam2324",
+    highlight: false,
+  },
+  {
+    title: "IEEE IES Bhubaneswar Chapter Website",
+    description: (
+      <ul style={{ margin: 0, paddingLeft: "1.2rem", display: "flex", flexDirection: "column", gap: "0.4rem" }}>
+        <li>Developed responsive website using HTML, CSS, and JavaScript.</li>
+        <li>Implemented grid layouts and sticky navigation.</li>
+      </ul>
+    ),
+    tags: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+    link: null,
+    github: "https://github.com/Priyam2324/IES-Bhubaneshwar",
     highlight: false,
   },
 ];
@@ -201,7 +220,7 @@ export default function App() {
               <a className="social-btn" href="https://github.com/Priyam2324" target="_blank" rel="noreferrer" title="GitHub">
                 <GithubIcon />
               </a>
-              <a className="social-btn" href="https://linkedin.com/in/priyam-pandey" target="_blank" rel="noreferrer" title="LinkedIn">
+              <a className="social-btn" href="https://www.linkedin.com/in/priyam-pandey-02aa69298" target="_blank" rel="noreferrer" title="LinkedIn">
                 <LinkedinIcon />
               </a>
               <a className="social-btn" href="https://mail.google.com/mail/?view=cm&fs=1&to=ppandey23072004@gmail.com" target="_blank" rel="noreferrer" title="Email me">
@@ -305,11 +324,10 @@ export default function App() {
             <div className={`project-card${p.highlight ? " project-card--highlight" : ""}`} key={i}>
               <div className="project-card__top">
                 <span className="project-number">0{i + 1}</span>
-                <span className="project-year">{p.year}</span>
                 {p.highlight && <span className="project-badge">Featured</span>}
               </div>
               <h3 className="project-title">{p.title}</h3>
-              <p className="project-desc">{p.description}</p>
+              <div className="project-desc">{p.description}</div>
               <div className="project-tags">
                 {p.tags.map((tag) => (
                   <span className="project-tag" key={tag}>{tag}</span>
