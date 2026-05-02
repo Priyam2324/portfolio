@@ -1,45 +1,65 @@
-# Hey, I'm Priyam Pandey 👋
+<h1 align="center">Hey, I'm Priyam Pandey 👋</h1>
 
-I'm a **Machine Learning Engineer** and **Full Stack Developer** who loves building things that sit at the intersection of intelligent systems and clean user experiences. Whether it's training models, architecting APIs, or crafting a frontend that actually feels good to use — I'm interested in the whole stack.
+<p align="center">
+  <b>Machine Learning Engineer · NLP · Optimization · Full-Stack Developer</b><br/>
+  Based in Kolkata, India 🇮🇳
+</p>
 
-I'm currently studying Computer Science, diving deep into compilers, algorithms, and everything in between.
+<p align="center">
+  <a href="https://Priyam2324.github.io/portfolio">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="mailto:ppandey23072004@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://linkedin.com/in/priyam-pandey">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</p>
 
 ---
 
-## 🧠 What I work with
+I'm a Computer Science undergrad at **KIIT University** who enjoys building systems that combine intelligent models with real, usable interfaces. My work spans NLP pipelines, combinatorial optimization, and full-stack applications — usually all at once.
 
-**ML / AI**
-`Python` `TensorFlow` `PyTorch` `scikit-learn` `Pandas` `NumPy`
+---
 
-**Frontend**
-`React` `JavaScript` `HTML/CSS`
+## 🛠️ Tech Stack
 
-**Backend & Tools**
-`Node.js` `Git` `GitHub Pages`
+| Domain | Technologies |
+|--------|-------------|
+| **Languages** | Python, JavaScript, TypeScript, C++, SQL |
+| **ML / AI** | Scikit-Learn, PyTorch, XGBoost, LGBM, CatBoost |
+| **NLP** | spaCy, Sentiment Analysis, Text Processing, LLM Integration |
+| **Frontend** | React, Angular, HTML, CSS |
+| **Backend** | Node.js, Express.js, Flask, FastAPI |
+| **Data** | Pandas, NumPy, Matplotlib |
+| **Deployment** | GitHub Pages, Netlify, Hugging Face Spaces |
 
 ---
 
 ## 🚀 Projects
 
-### 🎌 AI-Powered Anime Summary Engine
-An intelligent engine that generates structured summaries of anime titles using NLP and retrieval techniques. Built to handle ambiguous queries and surface clean, readable output.
+### 🎌 [Anime Insight: Hybrid AI Summary Engine](https://github.com/Priyam2324/anime-insight)
+A hybrid NLP system that combines **spaCy** and the **Gemini LLM** to generate clean, high-quality anime summaries. Built a multi-stage pipeline that filters irrelevant context before LLM processing, significantly improving latency and output consistency. Features a semantic extraction layer, modular retrieval-filtering-generation workflow, and is deployed via **Flask** on **Hugging Face Spaces**.
 
-### 🔢 Optimization Algorithm Solver
-A solver that implements and compares classical optimization algorithms side by side — useful for understanding trade-offs between approaches on benchmark problems.
+### 🗺️ [MTSP Solver: Disaster Relief Logistics Optimizer](https://github.com/Priyam2324/mtsp-solver)
+A full-stack solver for the **NP-hard Multiple Travelling Salesman Problem**, applied to disaster relief logistics. Implements a novel **Modified DSGO algorithm** with circular encoding and custom crossover operators for feasible route generation — outperforming GA, DPSO, ABC, and TLBO in convergence speed and route quality. Built with a **React + Leaflet** frontend and **FastAPI** backend, with real-time route and convergence visualization.
 
-> More at **[priyam2324.github.io/Priyam2324](https://Priyam2324.github.io/Priyam2324)**
+### 💼 [Personal Portfolio Website](https://github.com/Priyam2324/portfolio)
+Responsive personal portfolio built in **React** with reusable components, animations, and dynamic UI rendering. Deployed on both **GitHub Pages** and **Netlify**.
 
----
-
-## 📬 Get in touch
-
-If you want to collaborate, have a question, or just want to say hi — my inbox is open.
-
-[![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:priyam2324@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://Priyam2324.github.io/Priyam2324)
+### 🌐 IEEE IES Bhubaneswar Chapter Website
+Official website for the IEEE IES Bhubaneswar chapter. Built with **HTML, CSS, and JavaScript**, featuring responsive grid layouts and sticky navigation.
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Priyam2324&show_icons=true&theme=tokyonight&hide_border=true" alt="Priyam's GitHub Stats" />
-</p>
+## 📄 Research
+
+### [Predictive Models for Liver Disease: Unraveling Patterns with Machine Learning Algorithms](https://doi.org/YOUR_DOI_HERE)
+Developed a machine learning framework for early liver disease detection using the ILPD clinical dataset. Evaluated Logistic Regression, Random Forest, SVM, XGBoost, LGBM, and CatBoost under 20-fold cross-validation, with preprocessing via SMOTE, PCA, LDA, and feature scaling. Best result: **XGBoost at 81% accuracy and AUC 0.89**, outperforming existing benchmarks.
+
+---
+
+## 🎓 Education
+
+**B.Tech in Computer Science** — KIIT University, Bhubaneswar
