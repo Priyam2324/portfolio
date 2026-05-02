@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c82bcf11.css",
-    "main.js": "/portfolio/static/js/main.c82e4293.js",
-    "static/js/453.635f5f07.chunk.js": "/portfolio/static/js/453.635f5f07.chunk.js",
-    "static/media/Profile.jpeg": "/portfolio/static/media/Profile.32ab781f8be0e50204e2.jpeg",
-    "index.html": "/portfolio/index.html",
-    "main.c82bcf11.css.map": "/portfolio/static/css/main.c82bcf11.css.map",
-    "main.c82e4293.js.map": "/portfolio/static/js/main.c82e4293.js.map",
-    "453.635f5f07.chunk.js.map": "/portfolio/static/js/453.635f5f07.chunk.js.map"
+    "main.css": "/Priyam2324/static/css/main.c82bcf11.css",
+    "main.js": "/Priyam2324/static/js/main.a3cd5e26.js",
+    "static/js/453.2edbbbde.chunk.js": "/Priyam2324/static/js/453.2edbbbde.chunk.js",
+    "static/media/Profile.jpeg": "/Priyam2324/static/media/Profile.32ab781f8be0e50204e2.jpeg",
+    "index.html": "/Priyam2324/index.html",
+    "main.c82bcf11.css.map": "/Priyam2324/static/css/main.c82bcf11.css.map",
+    "main.a3cd5e26.js.map": "/Priyam2324/static/js/main.a3cd5e26.js.map",
+    "453.2edbbbde.chunk.js.map": "/Priyam2324/static/js/453.2edbbbde.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c82bcf11.css",
-    "static/js/main.c82e4293.js"
+    "static/js/main.a3cd5e26.js"
   ]
 }
