@@ -27,7 +27,7 @@ An intelligent engine that generates structured summaries of anime titles using 
 ### 🔢 Optimization Algorithm Solver
 A solver that implements and compares classical optimization algorithms side by side — useful for understanding trade-offs between approaches on benchmark problems.
 
-> More at **[priyam2324.github.io/portfolio](https://Priyam2324.github.io/portfolio)**
+> More at **[priyam2324.github.io/Priyam2324](https://Priyam2324.github.io/Priyam2324)**
 
 ---
 
@@ -36,7 +36,7 @@ A solver that implements and compares classical optimization algorithms side by 
 If you want to collaborate, have a question, or just want to say hi — my inbox is open.
 
 [![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:priyam2324@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://Priyam2324.github.io/portfolio)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://Priyam2324.github.io/Priyam2324)
 
 ---
 
