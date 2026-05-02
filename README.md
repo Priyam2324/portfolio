@@ -54,7 +54,7 @@ Official website for the IEEE IES Bhubaneswar chapter. Responsive layout built w
 
 ## 📄 Research
 
-#### [Predictive Models for Liver Disease: Unraveling Patterns with Machine Learning Algorithms]([https://doi.org/YOUR_DOI_HERE](https://ieeexplore.ieee.org/document/10872052))
+#### [Predictive Models for Liver Disease: Unraveling Patterns with Machine Learning Algorithms](https://ieeexplore.ieee.org/document/10872052)
 ML framework for early liver disease detection on the ILPD clinical dataset. Evaluated Logistic Regression, Random Forest, SVM, XGBoost, LGBM, and CatBoost under 20-fold cross-validation with SMOTE, PCA, LDA, and feature scaling. Best result: **XGBoost — 81% accuracy, AUC 0.89**, outperforming existing benchmarks.
 
 ---
