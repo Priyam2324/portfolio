@@ -47,14 +47,14 @@ Hybrid NLP system combining **spaCy** and **Gemini LLM** for high-quality anime 
 #### 🗺️ [MTSP Solver — Disaster Relief Logistics Optimizer](https://github.com/Priyam2324/mtsp-solver-frontend)
 Full-stack solver for the **NP-hard Multiple Travelling Salesman Problem**, applied to disaster relief logistics. Implements a novel **Modified DSGO algorithm** with circular encoding and custom crossover operators — outperforming GA, DPSO, ABC, and TLBO in convergence speed and route quality. Built with **React + Leaflet** and **FastAPI**, with real-time route and convergence visualization.
 
-#### 🌐 [IEEE IES Bhubaneswar Chapter Website](https://github.com/Priyam2324/IES-Bhubaneswar)
+#### 🌐 [IEEE IES Bhubaneswar Chapter Website](https://github.com/Priyam2324/IES-Bhubaneshwar)
 Official website for the IEEE IES Bhubaneswar chapter. Responsive layout built with **HTML, CSS, and JavaScript**, featuring grid-based design and sticky navigation. The production version was deployed on a custom domain for the duration of the event; this repository serves as an archived reference of the original work.
 
 ---
 
 ## 📄 Research
 
-#### [Predictive Models for Liver Disease: Unraveling Patterns with Machine Learning Algorithms](https://doi.org/YOUR_DOI_HERE)
+#### [Predictive Models for Liver Disease: Unraveling Patterns with Machine Learning Algorithms]([https://doi.org/YOUR_DOI_HERE](https://ieeexplore.ieee.org/document/10872052))
 ML framework for early liver disease detection on the ILPD clinical dataset. Evaluated Logistic Regression, Random Forest, SVM, XGBoost, LGBM, and CatBoost under 20-fold cross-validation with SMOTE, PCA, LDA, and feature scaling. Best result: **XGBoost — 81% accuracy, AUC 0.89**, outperforming existing benchmarks.
 
 ---
