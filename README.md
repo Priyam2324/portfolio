@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   &nbsp;
-  <a href="mailto:ppandey23072004@gmail.com?subject=Hey%20Priyam!">
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ppandey23072004@gmail.com&su=Hey%20Priyam!" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   &nbsp;
