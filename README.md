@@ -1,36 +1,45 @@
-# Priyam Pandey — Portfolio
+# Hey, I'm Priyam Pandey 👋
 
-A personal portfolio website built with React, designed to introduce who I am, what I do, and the projects I've worked on.
+I'm a **Machine Learning Engineer** and **Full Stack Developer** who loves building things that sit at the intersection of intelligent systems and clean user experiences. Whether it's training models, architecting APIs, or crafting a frontend that actually feels good to use — I'm interested in the whole stack.
 
-## About
+I'm currently studying Computer Science, diving deep into compilers, algorithms, and everything in between.
 
-This site serves as my digital presence — a place where I can share my background as a Machine Learning Engineer and Full Stack Developer, highlight the projects I've built, and make it easy for anyone to get in touch with me.
+---
 
-## What's inside
+## 🧠 What I work with
 
-- A hero section introducing me with an animated profile display and a snapshot of my tech stack
-- A projects section pulling from real work including an AI-powered anime summary engine, an optimization algorithm solver, and more
-- A contact section that links directly to Gmail so reaching out is frictionless
+**ML / AI**
+`Python` `TensorFlow` `PyTorch` `scikit-learn` `Pandas` `NumPy`
 
-## Built with
+**Frontend**
+`React` `JavaScript` `HTML/CSS`
 
-- **React** — component-based architecture with hooks for state and side effects
-- **CSS** — custom styling with animations, gradients, and a fully responsive layout
-- **GitHub Pages** — deployed and hosted for free via the gh-pages package
+**Backend & Tools**
+`Node.js` `Git` `GitHub Pages`
 
-## Live site
+---
 
-[https://Priyam2324.github.io/portfolio](https://Priyam2324.github.io/portfolio)
+## 🚀 Projects
 
-## Running locally
+### 🎌 AI-Powered Anime Summary Engine
+An intelligent engine that generates structured summaries of anime titles using NLP and retrieval techniques. Built to handle ambiguous queries and surface clean, readable output.
 
-```bash
-npm install
-npm start
-```
+### 🔢 Optimization Algorithm Solver
+A solver that implements and compares classical optimization algorithms side by side — useful for understanding trade-offs between approaches on benchmark problems.
 
-## Deploying
+> More at **[priyam2324.github.io/portfolio](https://Priyam2324.github.io/portfolio)**
 
-```bash
-npm run deploy
-```
+---
+
+## 📬 Get in touch
+
+If you want to collaborate, have a question, or just want to say hi — my inbox is open.
+
+[![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:priyam2324@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://Priyam2324.github.io/portfolio)
+
+---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Priyam2324&show_icons=true&theme=tokyonight&hide_border=true" alt="Priyam's GitHub Stats" />
+</p>
